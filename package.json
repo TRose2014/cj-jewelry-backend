@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "lint": "eslint *.js",
     "test": "jest --verbose --coverage",
     "test-watch": "jest --watchAll --verbose"
